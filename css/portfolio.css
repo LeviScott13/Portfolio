@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+
+    /* font */
+    --title: 55px;
+    --heading1: 48px;
+    --heading2: 45px;
+    --heading3: 42px;
+    --heading4: 38px;
+    --text: 28px;
+    --subtext1: 25px;
+    --subtext2: 22px;
+    --subtext3: 20px;
+    --subtext4: 18px;
+    --subtext5: 16px;
+    --subtext6: 14px;
+    --subtext7: 12px;
+
+    /* colors */
+    --primary: #323C52;
+    --bg-secondary: #404C67;
+    --secondary-color: #FF8A8A;
+    --text-color: white;
+    --subtext-color: #B8B8B8;
+}
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#main{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* Home */
+
+.main-home-container-wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.main-home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    overflow: auto;
+    background-image: url("../img/bgLarge.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-card-container-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(64, 76, 103, 0.8);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.contact-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 70px;
+}
+
+.contact-card-container-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.contact-card-container-header span:nth-of-type(1){
+    color: var(--text-color);
+    font-size: var(--heading2);
+}
+
+.contact-card-container-header span:nth-of-type(2){
+    color: var(--subtext-color);
+    font-size: var(--subtext1);
+}
+
+.contact-card-container-body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-card-container-body span{
+    color: var(--subtext-color);
+    font-size: var(--subtext1);
+    margin-right: 15px;
+}
+
+.contact-card-container-contact-link-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 0px 15px;
+}
+
+.contact-card-container-contact-link-container a{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px;
+    background: var(--primary);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: var(--subtext1);
+    color: var(--subtext-color);
+    text-decoration: none;
+}
+
+.contact-card-container-contact-link-container a:nth-last-of-type(1){
+    margin-right: 0px;
+}
+
+.contact-card-container-contact-link-container a:hover{
+    cursor: pointer;
+    background: var(--secondary-color);
+    color: var(--subtext-color);
+}
+
+.contact-card-container-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.contact-card-container-footer button:nth-of-type(1){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-right: 15px;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    font-size: var(--subtext4);
+}
+
+.contact-card-container-footer button:nth-of-type(2){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-right: 15px;
+    background: transparent;
+    color: var(--text-color);
+    font-size: var(--subtext4);
+}
+
+.contact-card-container-footer button:hover{
+    cursor: pointer;
+    background: white;
+    color: var(--primary);
+    border: 3px solid white;
+}
+
+.contact-card-container-profile-pic{
+    width: 220px;
+    height: 220px;
+    border: 5px solid var(--secondary-color);
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-image: url("../img/profilePic.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 0px){
+    .main-home-container{
+        background-image: url("../img/bgSmall.jpg");
+    }
+
+    .contact-card-container-wrapper{
+        flex-direction: column-reverse;
+        width: 60%;
+    }
+
+    .contact-card-container{
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .contact-card-container-header span:nth-of-type(1){
+        font-size: var(--subtext1);
+    }
+
+    .contact-card-container-header span:nth-of-type(2){
+        font-size: var(--subtext5);
+    }
+
+    .contact-card-container-body{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-card-container-body span{
+        font-size: var(--subtext5);
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .contact-card-container-contact-link-container{
+        padding: 0px;
+    }
+
+    .contact-card-container-contact-link-container a{
+        font-size: var(--subtext5);
+    }
+
+    .contact-card-container-footer{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .contact-card-container-footer button:nth-of-type(1){
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        font-size: var(--subtext5);
+    }
+
+    .contact-card-container-footer button:nth-of-type(2){
+        font-size: var(--subtext5);
+        width: 100%;
+    }
+
+    .contact-card-container-profile-pic{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 350px){
+    .contact-card-container-wrapper{
+        flex-direction: column-reverse;
+        width: initial;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .main-home-container{
+        background-image: url("../img/bgLarge.png");
+    }
+
+    .contact-card-container{
+        margin-right: 50px;
+    }
+
+    .contact-card-container-header span:nth-of-type(1){
+        font-size: var(--heading4);
+    }
+
+    .contact-card-container-header span:nth-of-type(2){
+        font-size: var(--subtext4);
+    }
+
+    .contact-card-container-wrapper{
+        flex-direction: row;
+    }
+
+    .contact-card-container-body{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contact-card-container-body span{
+        font-size: var(--subtext4);
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+
+    .contact-card-container-contact-link-container{
+        padding: 0px 0px 0px 15px;
+    }
+
+    .contact-card-container-contact-link-container a{
+        font-size: var(--subtext4);
+    }
+
+    .contact-card-container-footer{
+        width: initial;
+        flex-direction: row;
+    }
+
+    .contact-card-container-footer button:nth-of-type(1){
+        width: initial;
+        margin-right: 15px;
+        margin-bottom: 0px;
+        font-size: var(--subtext4);
+    }
+
+    .contact-card-container-footer button:nth-of-type(2){
+        width: initial;
+        font-size: var(--subtext4);
+    }
+
+    .contact-card-container-profile-pic{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .contact-card-container{
+        margin-right: 70px;
+    }
+
+    .contact-card-container-header span:nth-of-type(1){
+        color: var(--text-color);
+        font-size: var(--heading2);
+    }
+
+    .contact-card-container-header span:nth-of-type(2){
+        color: var(--subtext-color);
+        font-size: var(--subtext1);
+    }
+
+    .contact-card-container-body span{
+        font-size: var(--subtext1);
+    }
+
+    .contact-card-container-contact-link-container a{
+        font-size: var(--subtext1);
+    }
+
+    .contact-card-container-profile-pic{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/********************************************************************************************************************************/
