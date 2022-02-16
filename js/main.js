@@ -18,8 +18,8 @@ class Main extends React.Component{
               {
                 this.state.portfolio_switch == false ? 
                   <Home onSelectPortfolio={this.handleSwitch} /> :
-
-                  <Portfolio />
+                  
+                  <Portfolio/>
               }
               
           </div>

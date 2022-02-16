@@ -9,6 +9,7 @@ class Home extends React.Component{
     }
     
     render() {
+      var browserHistory = ReactRouter.browserHistory;
         return (
           <div className="main-home-container">
               <div className="contact-card-container-wrapper">
@@ -41,7 +42,7 @@ class Home extends React.Component{
                   </div>
 
                   <div className="contact-card-container-footer">
-                    <button onClick={() => this.sendData()}>
+                    <button onClick={browserHistory.goBack}>
                       <span>Portfolio</span>
                     </button>
                     <button>
