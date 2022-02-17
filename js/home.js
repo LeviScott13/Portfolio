@@ -3,14 +3,14 @@ class Home extends React.Component{
     constructor(props) {
         super(props);
     }
-
-    sendData = () => {
-      this.props.onSelectPortfolio(true);
-    }
     
+    redirect(){
+      window.location.href = "pages/portfolio.html"
+    }
+
     render() {
-      var browserHistory = ReactRouter.browserHistory;
-        return (
+
+      return (
           <div className="main-home-container">
               <div className="contact-card-container-wrapper">
 
@@ -42,7 +42,7 @@ class Home extends React.Component{
                   </div>
 
                   <div className="contact-card-container-footer">
-                    <button onClick={browserHistory.goBack}>
+                    <button onClick={this.redirect}>
                       <span>Portfolio</span>
                     </button>
                     <button>
