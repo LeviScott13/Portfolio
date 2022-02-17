@@ -4,6 +4,10 @@ class Portfolio extends React.Component{
         super(props);
     }
 
+    returnHome(){
+        window.location.href = "../index.html"
+    }
+
     render() {
         return (
             <div className="portfolio-container">
@@ -13,7 +17,7 @@ class Portfolio extends React.Component{
                         <span>Levi Sutton</span>
                     </div>
                     <div className="portfolio-signature-container">
-                        <a>Home</a>
+                        <a onClick={this.returnHome}>Home</a>
                     </div>
                 </div>
 
