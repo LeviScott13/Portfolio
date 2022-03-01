@@ -5,7 +5,7 @@ class Home extends React.Component{
     }
     
     redirect(){
-      window.location.href = "pages/portfolio.html"
+      window.location.href = "pages/portfolio.php"
     }
 
     render() {
@@ -45,10 +45,10 @@ class Home extends React.Component{
                     <button onClick={this.redirect}>
                       <span>Portfolio</span>
                     </button>
-                    <button>
+                    <a href="resume/LeviSuttonResume2022.docx" download="LeviSuttonResume2022">
                       <i className="fas fa-download" style={{marginRight: "10px"}}></i>
                       <span>Download Resume</span>
-                    </button>
+                    </a>
                   </div>
                 </div>
 
