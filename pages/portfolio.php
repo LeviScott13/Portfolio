@@ -35,6 +35,7 @@
     <?php include '../projectData.php'; ?>
 
     <script  type="text/babel" src=<?php echo '"../js/portfolio.js?v'.$temp_time.'"'?>></script>
+    <script  type="text/babel" src=<?php echo '"../js/project.js?v'.$temp_time.'"'?>></script>
 
 </body>
 
