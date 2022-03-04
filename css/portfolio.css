@@ -118,7 +118,7 @@ body{
     padding: 0px 0px 0px 15px;
 }
 
-.contact-card-container-contact-link-container a{
+.contact-links{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -131,11 +131,11 @@ body{
     text-decoration: none;
 }
 
-.contact-card-container-contact-link-container a:nth-last-of-type(1){
+.contact-links:nth-last-of-type(1){
     margin-right: 0px;
 }
 
-.contact-card-container-contact-link-container a:hover{
+.contact-links:hover{
     cursor: pointer;
     background: var(--secondary-color);
     color: var(--subtext-color);
@@ -255,7 +255,7 @@ body{
 
     .contact-card-container-footer a{
         font-size: var(--subtext5);
-        width: 100%;
+        padding: 10px;
     }
 
     .contact-card-container-profile-pic{
@@ -324,7 +324,7 @@ body{
     }
 
     .contact-card-container-footer a{
-        width: initial;
+        padding: 0px 10px;
         font-size: var(--subtext4);
     }
 
@@ -429,12 +429,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    align-self: stretch;
 }
 
 .portfolio-container-about-header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    align-self: stretch;
     margin: 0px 0px 30px 0px;
 }
 
@@ -515,28 +517,6 @@ body{
     width: 60%;
     height: 60%;
     object-fit: contain;
-}
-
-.portfolio-container-project-header-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0px 0px 50px 0px;
-}
-
-.portfolio-container-project-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    margin: 0px 0px 30px 0px;
-}
-
-.portfolio-container-project-header span{
-    color: white;
-    font-size: var(--heading5);
-    font-weight: bold;
 }
 
 @media screen and (min-width: 0px){
@@ -632,5 +612,201 @@ body{
 
     .portfolio-container-about-projects-container:nth-of-type(3n){
         margin: 0px 0px 50px 0px;
+    }
+}
+
+/* Project Page */
+
+.portfolio-container-project-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.portfolio-container-project-header span{
+    color: white;
+    font-size: var(--heading5);
+    font-weight: bold;
+}
+
+.portfolio-container-project-links-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portfolio-container-project-description-container-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 0px;
+}
+
+.portfolio-container-project-description-container-header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-bottom: 20px;
+}
+
+.portfolio-container-project-description-container-header span{
+    font-size: var(--subtext3);
+    color: #FFFFFF;
+}
+
+.portfolio-container-project-description-container{
+    font-size: var(--subtext3);
+    color: #CCCCCC;
+    margin-bottom: 50px;
+}
+
+.portfolio-container-project-description-container a{
+    text-decoration-style: dotted;
+    font-size: var(--subtext3);
+    color: #CCCCCC;
+}
+
+.portfolio-container-project-description-container a:hover{
+    opacity: 0.7;
+}
+
+.portfolio-container-project-description-container p{
+    margin: 0px;
+}
+
+.portfolio-container-project-description-container ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none; 
+}
+
+.portfolio-container-project-description-container ul li::before {
+    content: "\1405"; 
+    color: var(--secondary-color); 
+    display: inline-block; 
+    width: 10px; 
+    margin-right: 20px; 
+}
+
+.portfolio-container-project-description-container ul li{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.portfolio-container-project-description-container ul li:nth-last-of-type(1){
+    margin-bottom: 0px;
+}
+
+.portfolio-container-project-description-tools-container-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.portfolio-container-project-description-tools-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: var(--primary);
+    font-size: var(--subtext3);
+    color: #CCCCCC;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-container-project-description-tools-container:nth-last-of-type(1){
+    margin-right: 0px;
+}
+
+.error-message{
+    font-size: var(--subtext3);
+    color: var(--secondary-color);
+}
+
+/********************************************************************************************************************************/
+
+@media screen and (min-width: 0px){
+
+    .portfolio-container-project-description-container-header span{
+        font-size: var(--subtext5);
+    }
+
+    .portfolio-container-project-description-container{
+        font-size: var(--subtext5);
+    }
+
+    .portfolio-container-project-description-tools-container{
+        font-size: var(--subtext5);
+    }
+
+    .portfolio-container-project-header span{
+        font-size: var(--subtext1);
+    }
+
+    .error-message{
+        font-size: var(--subtext5);
+    }
+
+    .portfolio-container-project-description-container a{
+        font-size: var(--subtext5);
+    }
+}
+
+@media screen and (min-width: 800px){
+
+    .portfolio-container-project-description-container-header span{
+        font-size: var(--subtext4);
+    }
+
+    .portfolio-container-project-description-container{
+        font-size: var(--subtext4);
+    }
+
+    .portfolio-container-project-description-tools-container{
+        font-size: var(--subtext4);
+    }
+
+    .portfolio-container-project-header span{
+        font-size: var(--heading5);
+    }
+
+    .error-message{
+        font-size: var(--subtext4);
+    }
+
+    .portfolio-container-project-description-container a{
+        font-size: var(--subtext4);
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .portfolio-container-project-description-container-header span{
+        font-size: var(--subtext3);
+    }
+
+    .portfolio-container-project-description-container{
+        font-size: var(--subtext3);
+    }
+
+    .portfolio-container-project-description-tools-container{
+        font-size: var(--subtext3);
+    }
+
+    .error-message{
+        font-size: var(--subtext3);
+    }
+
+    .portfolio-container-project-description-container a{
+        font-size: var(--subtext3);
     }
 }

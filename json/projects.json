@@ -1,9 +1,117 @@
 
 {
     "projects": [
+
+        {
+            "title": "VPP Personal Dashboard",
+            "project_description": "Fully customizable personal dashboard designed dynamically to fit the needs of a specific employee, no matter what department they’re in, this dashboard contains information beneficial to the individual using it. The main purpose of this dashboard is to help our employees to see and get to information at a quick glance.",
+            "problem": null,
+            "features": [
+                "Sidenav",
+                "Rearrangeable widgets containing specific data (production, deployments, repairs, etc.)",
+                "Search/Filter options within widgets",
+                "Pinnable data",
+                "Activity Feed",
+                "Pin Reminders/Notifications"
+            ],
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "javaScript",
+                "React"
+            ],
+            "project_imgs": null
+        },
+
+        {
+            "title": "QuickQuote",
+            "project_description": "E-commerce site to allow customers to place orders/get quotes on the technology devices the company provides.",
+            "problem": null,
+            "features": [
+                "Login/Logout system",
+                "Item section",
+                "Search field to search for a specific item",
+                "Search field to search for a previously generated quotes",
+                "Filter (Brands and Categories)",
+                "Shipping and Billing form",
+                "Shopping Cart",
+                "Overview"
+            ],
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "javaScript",
+                "React"
+            ],
+            "project_imgs": null
+        },
+
+        {
+            "title": "Search Tracker",
+            "project_description": "Search tracking application for users to track down and get detailed information (description, progress, warranties, history) on a device that is being repaired by the company.",
+            "problem": null,
+            "features": [
+                "Search/Filter options",
+                "Progress bar",
+                "History table",
+                "Print option",
+                "Device Description section",
+                "Warranty Breakdown section",
+                "Countdown/Indicator to show warranty is still active or expired",
+                "Contact Support option "
+            ],
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "javaScript",
+                "React"
+            ],
+            "project_imgs": null
+        },
+
+        {
+            "title": "Label Generator",
+            "project_description": "Label generating application to allow users to create and customize shipping labels.",
+            "problem": null,
+            "features": [
+                "Set of defined templates to choose from",
+                "Add, edit, delete, and save label events",
+                "Drag and drop capability (while editing)",
+                "Add and remove page events",
+                "Download event to print out labels"
+            ],
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "javaScript",
+                "php"
+            ],
+            "project_imgs": null
+        },
+
         {
             "title": "Deployment Calendar",
-            "about": "This is a redesign of an existing deployment calendar application to show delivery destinations dedicated to a specific driver within the company.",
+            "project_description": "This is a redesign of an existing deployment calendar application to show delivery destinations dedicated to a specific driver within the company.",
             "problem": "The deploymeny calendar application that's being used isn't as dynamic or user friendly. Our user's would like a more interactive application that allows them to easily see the deployments they are assigned to, have the ability to search, and more viewing options then just the default calendar view. Improving this application will be able to increase delivery efficiency by 10%.",
             "features": [
                 "Month, Week and Day views",
@@ -12,22 +120,42 @@
                 "Color coded delivery events based on delivery method",
                 "Hover capability on delivery events to give brief information of delivery and the driver(s) assigned to it"
             ],
-            "titleImg": "../img/projectImgs/virtucom.png"
-            
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "javaScript",
+                "php"
+            ],
+            "project_imgs": null
         },
+
         {
-            "title": "Hey",
-            "about": "This is a redesign of an existing deployment calendar application to show delivery destinations dedicated to a specific driver within the company.",
-            "problem": "The deploymeny calendar application that's being used isn't as dynamic or user friendly. Our user's would like a more interactive application that allows them to easily see the deployments they are assigned to, have the ability to search, and more viewing options then just the default calendar view. Improving this application will be able to increase delivery efficiency by 10%.",
+            "title": "vBid Analytics",
+            "project_description": "Analytic software that provides an in-depth overview of bids, wins etc., for the sales team – providing the company with accurate visual representations of the sale team’s performance.",
+            "problem": null,
             "features": [
-                "Month, Week and Day views",
-                "Back and forth toggle capability",
-                "Search field to allow users to search for/jump to a specific delivery event within the calendar",
-                "Color coded delivery events based on delivery method",
-                "Hover capability on delivery events to give brief information of delivery and the driver(s) assigned to it"
+                "Pie chart visual represention to show data dedicated to specific analytic the user wants to see",
+                "Table depicting data",
+                "Search feature",
+                "Comparable capability"
             ],
-            "titleImg": "../img/projectImgs/virtucom.png"
-            
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "Bootstrap",
+                "javaScript"
+            ],
+            "project_imgs": null
         }
     ]
 }
