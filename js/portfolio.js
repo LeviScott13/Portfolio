@@ -13,13 +13,13 @@ class Portfolio extends React.Component{
         this.selectProject = this.selectProject.bind(this);
     }
 
-    selectProject(key){        
+    selectProject(key){   
+        pageChange();
         this.setState({selectedProject: this.state.projects[key], selectedProjectSwitch:true})
+        window.scrollTo(0, 0);
     }
 
     render() {
-
-        console.log(this.state.projects)
 
         return (
 
@@ -65,7 +65,20 @@ class Portfolio extends React.Component{
             : <Project selectedProject={this.state.selectedProject}/>
         );
     }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 }
+
+
+function pageChange() {
+    window.history.pushState('Levi Sutton', 'Levi Sutton', "portfolio.html")
+}
+
+$(window).bind('popstate', function () {
+    window.location.replace(`portfolio.html`);
+});
 
 var projects = {
 "projects": 

@@ -9,9 +9,9 @@ class Project extends React.Component{
     }
 
     render(){
-        
+    
         return(
-            <div className="portfolio-container">
+            <div id="myDIV" className="portfolio-container">
                     <div className="portfolio-container-header">
                         <div className="portfolio-signature-container">
                             <img src="../img/logo2.png"/>
@@ -70,7 +70,7 @@ class Project extends React.Component{
                                 : ""
                             }
 
-{
+                            {
                             this.state.selectedProject.features != null ? 
                                 <div className="portfolio-container-project-description-container-wrapper">
                                     <div className="portfolio-container-project-description-container-header">
@@ -131,5 +131,6 @@ class Project extends React.Component{
                     </div>
                 </div>
         )
+        
     }
 }
