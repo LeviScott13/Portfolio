@@ -19,6 +19,10 @@ class Portfolio extends React.Component{
         window.scrollTo(0, 0);
     }
 
+    redirectHome(){
+        window.location.href = "../index.html"
+    }
+
     render() {
         
         return (
@@ -27,7 +31,7 @@ class Portfolio extends React.Component{
 
                 <div className="portfolio-container">
                     <div className="portfolio-container-header">
-                        <div className="portfolio-signature-container">
+                        <div className="portfolio-signature-container" onClick={this.redirectHome}>
                             <img src="../img/logo2.png"/>
                             <span>Levi Sutton</span>
                         </div>

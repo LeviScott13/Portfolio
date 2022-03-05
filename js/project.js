@@ -10,12 +10,20 @@ class Project extends React.Component{
         document.getElementById("portfolioMain").scrollTop = 0;
     }
 
+    redirect(){
+        window.location.href = "portfolio.html"
+    }
+
+    redirectHome(){
+        window.location.href = "../index.html"
+    }
+
     render(){
     
         return(
             <div id="myDIV" className="portfolio-container">
                     <div className="portfolio-container-header">
-                        <div className="portfolio-signature-container">
+                        <div className="portfolio-signature-container" onClick={this.redirectHome}>
                             <img src="../img/logo2.png"/>
                             <span>Levi Sutton</span>
                         </div>
@@ -128,6 +136,10 @@ class Project extends React.Component{
                                     </div>
                                 </div>
                             }
+
+                            <div className="portfolio-container-project-btn-container">
+                                <button onClick={this.redirect}>View more projects</button>
+                            </div>
                             
                         </div>
                     </div>
