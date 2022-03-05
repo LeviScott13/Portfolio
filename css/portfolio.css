@@ -520,6 +520,10 @@ body{
 
 @media screen and (min-width: 0px){
 
+    .portfolio-container-header{
+        margin: 100px 50px 50px 50px;
+    }
+
     .portfolio-signature-container img{
         width: 40px;
         height: 20px;
@@ -555,6 +559,10 @@ body{
 }
 
 @media screen and (min-width: 800px){
+
+    .portfolio-container-header{
+        margin: 50px;
+    }
 
     .portfolio-signature-container img{
         width: 45px;
@@ -743,6 +751,10 @@ body{
         font-size: var(--subtext5);
     }
 
+    .portfolio-container-project-description-container:nth-last-of-type(1){
+        margin-bottom: 100px;
+    }
+
     .portfolio-container-project-description-tools-container{
         font-size: var(--subtext5);
     }
@@ -768,6 +780,10 @@ body{
 
     .portfolio-container-project-description-container{
         font-size: var(--subtext4);
+    }
+
+    .portfolio-container-project-description-container:nth-last-of-type(1){
+        margin-bottom: 50px;
     }
 
     .portfolio-container-project-description-tools-container{
