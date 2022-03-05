@@ -547,6 +547,10 @@ body{
         margin: 0px 0px 50px 0px;
     }
 
+    .portfolio-container-about-projects-container:nth-last-of-type(1){
+        margin: 0px 0px 100px 0px;
+    }
+
     .portfolio-container-about-projects-container span{
         font-size: var(--subtext4);
     }
@@ -588,6 +592,10 @@ body{
     }
 
     .portfolio-container-about-projects-container:nth-of-type(2n){
+        margin: 0px 0px 50px 0px;
+    }
+
+    .portfolio-container-about-projects-container:nth-last-of-type(1){
         margin: 0px 0px 50px 0px;
     }
 
