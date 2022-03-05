@@ -6,6 +6,8 @@ class Project extends React.Component{
         this.state = {
             "selectedProject": this.props.selectedProject
         }
+
+        document.getElementById("portfolioMain").scrollTop = 0;
     }
 
     render(){

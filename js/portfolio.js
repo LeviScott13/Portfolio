@@ -20,7 +20,7 @@ class Portfolio extends React.Component{
     }
 
     render() {
-
+        
         return (
 
             this.state.selectedProjectSwitch == false ? 
