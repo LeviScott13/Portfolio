@@ -191,7 +191,7 @@ body{
 .contact-card-container-profile-pic{
     width: 220px;
     height: 220px;
-    border: 5px solid var(--secondary-color);
+    border: 3px solid var(--secondary-color);
     box-sizing: border-box;
     border-radius: 50%;
     background-image: url("../img/profilePic.JPG");

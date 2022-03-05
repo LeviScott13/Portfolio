@@ -122,7 +122,7 @@ class Project extends React.Component{
 
                                 <div className="portfolio-container-project-description-container-wrapper">
                                     <div className="portfolio-container-project-description-container">
-                                        <span><span className="error-message">*Images not shown due to company policy*. </span><br/><br/>  Want to learn more about this project? <a href="#" href="mailto: levi.sutton2013@gmail.com" target="_blank">Lets chat</a>.</span>
+                                        <span><span className="error-message">*Images not shown due to company policy*. </span><br/><br/>  Want to learn more about this project? <a href="mailto: levi.sutton2013@gmail.com" target="_blank">Lets chat</a>.</span>
                                     </div>
                                 </div>
                             }
