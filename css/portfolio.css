@@ -751,7 +751,7 @@ body{
         font-size: var(--subtext5);
     }
 
-    .portfolio-container-project-description-container:nth-last-of-type(1){
+    .portfolio-container-project-description-container-wrapper:nth-last-of-type(1) .portfolio-container-project-description-container{
         margin-bottom: 100px;
     }
 
@@ -782,7 +782,7 @@ body{
         font-size: var(--subtext4);
     }
 
-    .portfolio-container-project-description-container:nth-last-of-type(1){
+    .portfolio-container-project-description-container-wrapper:nth-last-of-type(1) .portfolio-container-project-description-container{
         margin-bottom: 50px;
     }
 
