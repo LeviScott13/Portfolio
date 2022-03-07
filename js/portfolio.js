@@ -223,7 +223,7 @@ var projects = {
         {
             "title": "Deployment Calendar",
             "project_description": "This is a redesign of an existing deployment calendar application to show delivery destinations dedicated to a specific driver within the company.",
-            "problem": "The deploymeny calendar application that's being used isn't as dynamic or user friendly. Our user's would like a more interactive application that allows them to easily see the deployments they are assigned to, have the ability to search, and more viewing options then just the default calendar view. Improving this application will be able to increase delivery efficiency by 10%.",
+            "problem": "The current deployment calendar application that's being used isn't as dynamic or user friendly. Our user's would like a more interactive application that allows them to easily see the deployments they are assigned to, have the ability to search, and more viewing options then just the default calendar view. Improving this application will be able to increase delivery efficiency by 10%.",
             "features": [
                 "Month, Week and Day views",
                 "Search field to allow users to search for/jump to a specific delivery event within the calendar",
