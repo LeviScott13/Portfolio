@@ -198,7 +198,7 @@ var projects = {
         {
             "title": "Label Generator",
             "project_description": "This is a rework of an exisisting label generating application that allow users to create and customize shipping labels/templates.",
-            "problem": "The current application isn't being greatly used, due to the difficulty of the process it take to use the application. Our users would like to be able to have a more user-friendly and interactable experience that allows them to customize the labels/template to fit their needs. Improving this application will allow our workers to create labels at a more efficient and increase productivity by 5%.",
+            "problem": "The current application isn't being greatly used, due to the difficult process it take in order to use the application. Our users would like to be able to have a more user-friendly and interactable experience that allows them to customize the labels/template to fit their needs. Improving this application will allow our workers to create labels at a more efficient and increase productivity by 5%.",
             "features": [
                 "Set of defined templates to choose from",
                 "Add, edit, delete, and save label events",
