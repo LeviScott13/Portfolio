@@ -90,7 +90,7 @@ var projects = {
         {
             "title": "Inventory Management System",
             "project_description": "This is a redesign/rework of an exisisting inventory management system. This system allows the company to manage, maintain records and provide analytical data on our devices.",
-            "problem": "The way the inventory system is setup currenlty is'nt user friendly, due to parts of the process being a bit spaced out in different locations. Our users would like to be able to have everything related to inventory within a centralized location, providing a better user experience and making it easier to keep track of inventory in the future. Reworking this application would make it easier on the company, especially for those in production that are in charge of handling and maintaining inventory.",
+            "problem": "The way the current inventory system is setup isn't user friendly, due to parts of the process being a bit spaced out in different locations. Our users would like to be able to have everything related to inventory within a centralized location, providing a better user experience and making it easier to keep track of inventory in the future. Reworking this application would make it easier on the company, especially for those in production that are in charge of handling and maintaining inventory.",
             "features": [
                 "Sidenav",
                 "Rearrangeable widgets containing specific data (production, deployments, repairs, etc.)",
