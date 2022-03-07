@@ -170,7 +170,7 @@ var projects = {
         {
             "title": "Search Tracker",
             "project_description": "Search tracking application for users to track down and get detailed information (description, progress, warranties, history) on a device that is being repaired by the company.",
-            "problem": "Our customers would like a way of tracking the devices they send back to the company for repairs, as well as, the state the device is in when in repair. The only way they can track this process, currently, is by inquiring through email or phone call. Having this application will allow our customers to not go through such a hassle and give them in depth knowledge on the devices they've sent to us, not only currently, but in the past as well.",
+            "problem": "Our customers would like a way of tracking the devices they send back to the company for repairs, as well as, the state the device is in when in repair. The only way they can track this process, currently, is by inquiring through email or phone call. Having this application will allow our customers to not go through such a hassle and give them in depth knowledge on devices they've sent to us, not only currently, but in the past as well.",
             "features": [
                 "Search/Filter options",
                 "Progress bar",
