@@ -142,7 +142,7 @@ var projects = {
         {
             "title": "QuickQuote",
             "project_description": "E-commerce site to allow customers to place orders/get quotes on the technology devices the company provides.",
-            "problem": "Customers have complained that QuickQuote is hard to navigate, not very user friendly and find it to be a hassle to call the company every time they need to inquire about devices, due the difficult nature of the application. By improving this application we will be able to increase sales and show our customers we're dedicated to providing more user friendly applications.",
+            "problem": "Customers have complained that QuickQuote is hard to navigate, not very user friendly and find it to be a hassle to call the company every time they need to inquire about devices, due to the difficult nature of the application. By improving this application we will be able to increase sales and show our customers we're dedicated to providing more user friendly applications.",
             "features": [
                 "Login/Logout system",
                 "Item section",
