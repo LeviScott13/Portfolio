@@ -26,8 +26,8 @@ class Home extends React.Component{
                       <a className="contact-links" href="mailto: levi.sutton2013@gmail.com" target="_blank">
                         <i className="far fa-envelope"></i>
                       </a>
-                      <a className="contact-links" href="https://www.instagram.com/levi_scott13/" target="_blank">
-                        <i className="fab fa-instagram"></i>
+                      <a className="contact-links" href="https://www.linkedin.com/in/levi-sutton/" target="_blank">
+                        <i className="fab fa-linkedin"></i>
                       </a>
                       <a className="contact-links" href="https://twitter.com/LeviScott13" target="_blank">
                         <i className="fab fa-twitter"></i>
