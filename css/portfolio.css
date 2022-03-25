@@ -833,6 +833,7 @@ body{
     font-size: var(--subtext3);
     color: #CCCCCC;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .portfolio-container-project-description-container a{
@@ -870,6 +871,12 @@ body{
 
 .portfolio-container-project-description-container ul li:nth-last-of-type(1){
     margin-bottom: 0px;
+}
+
+.portfolio-container-project-description-container img{
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 8px 25px #151f36;
 }
 
 .portfolio-container-project-description-tools-container-wrapper{

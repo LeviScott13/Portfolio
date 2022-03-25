@@ -110,7 +110,11 @@ var projects = {
                 "javaScript",
                 "React"
             ],
-            "project_imgs": null
+            "project_imgs": [
+                {
+                    "src": "../img/projectImgs/inventory_mg_system.png"
+                }
+            ]
         },
 
         {
@@ -136,7 +140,11 @@ var projects = {
                 "javaScript",
                 "React"
             ],
-            "project_imgs": null
+            "project_imgs": [
+                {
+                    "src": "../img/projectImgs/vpp_dashboard.png"
+                }
+            ]
         },
 
         {
@@ -164,7 +172,14 @@ var projects = {
                 "javaScript",
                 "React"
             ],
-            "project_imgs": null
+            "project_imgs": [
+                {
+                    "src": "../img/projectImgs/quickquote.png"
+                },
+                {
+                    "src": "../img/projectImgs/quickquote_overview.png"
+                }
+            ]
         },
 
         {
@@ -192,7 +207,11 @@ var projects = {
                 "javaScript",
                 "React"
             ],
-            "project_imgs": null
+            "project_imgs": [
+                {
+                    "src": "../img/projectImgs/search_tracker.png"
+                }
+            ]
         },
 
         {

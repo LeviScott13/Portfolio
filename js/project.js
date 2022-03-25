@@ -19,6 +19,8 @@ class Project extends React.Component{
     }
 
     render(){
+
+        console.log(this.state.selectedProject.project_imgs)
     
         return(
             <div id="myDIV" className="portfolio-container">
@@ -125,7 +127,12 @@ class Project extends React.Component{
                                 this.state.selectedProject.project_imgs != null ? 
                                     <div className="portfolio-container-project-description-container-wrapper">
                                         <div className="portfolio-container-project-description-container">
-                                            <img src=""/>
+                                            {
+                                                this.state.selectedProject.project_imgs.map((img, key) => (
+                                                    <img src={img.src} key={key}/>
+                                                ))
+                                            }
+                                            <span><br/><br/>  Want to learn more about this project? <a href="mailto: levi.sutton2013@gmail.com" target="_blank">Lets chat</a>.</span>
                                         </div>
                                     </div>
                                 : 
