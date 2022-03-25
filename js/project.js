@@ -15,7 +15,7 @@ class Project extends React.Component{
     }
 
     redirectHome(){
-        window.location.href = "../index.html"
+        window.location.href = "main.html"
     }
 
     render(){

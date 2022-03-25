@@ -42,12 +42,124 @@ body{
     width: 100vw;
 }
 
-
 /* Home */
 
 .main-home-container-wrapper{
     height: 100%;
     width: 100%;
+}
+
+.password-form-container{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+}
+
+.password-form-container form{
+    margin: auto;
+}
+
+.password-form-container form span{
+    font-size: var(--subtext1);
+    color: white;
+}
+
+.password-form-container form input{
+    font-size: var(--subtext3);
+    border: none;
+}
+
+.password-form-container form #confirm-btn:hover{
+    opacity: 0.9;
+}
+
+.password-form-container-wrapper{
+    box-shadow: 0px 8px 20px #151f36;
+}
+
+.password-form-container-wrapper #password-input{
+    width: 500px;
+    padding: 15px;
+}
+
+.password-form-container-wrapper #confirm-btn{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.preloader{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+}
+
+.loader{
+    position: relative;
+    margin: auto;
+}
+
+.loader div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.loader div img{
+    position: absolute;
+    width: 100px;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeInFromNone 1s ease 2.8s forwards;
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+.loader svg,
+.loader svg rect{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+}
+
+.loader svg rect{
+    stroke: var(--secondary-color);
+    stroke-width: 12;
+    stroke-dashoffset: 720;
+    stroke-dasharray: 720;
+    animation: square 1.8s ease-in 0.5s forwards;
+}
+
+@keyframes square{
+    from {
+        stroke-dashoffset: 720;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
 }
 
 .main-home-container{
@@ -204,6 +316,18 @@ body{
         background-image: url("../img/bgSmall.jpg");
     }
 
+    .password-form-container form span{
+        font-size: 3.2vw;
+    }
+
+    .password-form-container form input{
+        font-size: 3.2vw;
+    }
+
+    .password-form-container-wrapper #password-input{
+        width: 150px;
+    }
+
     .contact-card-container-wrapper{
         flex-direction: column-reverse;
         width: 60%;
@@ -265,6 +389,19 @@ body{
 }
 
 @media screen and (min-width: 350px){
+
+    .password-form-container form span{
+        font-size: var(--subtext5);
+    }
+
+    .password-form-container form input{
+        font-size: var(--subtext6);
+    }
+
+    .password-form-container-wrapper #password-input{
+        width: 200px;
+    }
+
     .contact-card-container-wrapper{
         flex-direction: column-reverse;
         width: initial;
@@ -274,6 +411,18 @@ body{
 @media screen and (min-width: 800px){
     .main-home-container{
         background-image: url("../img/bgLarge.png");
+    }
+
+    .password-form-container form span{
+        font-size: var(--subtext1);
+    }
+
+    .password-form-container form input{
+        font-size: var(--subtext3);
+    }
+
+    .password-form-container-wrapper #password-input{
+        width: 500px;
     }
 
     .contact-card-container{

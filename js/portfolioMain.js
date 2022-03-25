@@ -1,5 +1,5 @@
 //JSON project data
-class Portfolio extends React.Component{
+class PortfolioMain extends React.Component{
 
     constructor(props) {
         super(props);
@@ -20,7 +20,7 @@ class Portfolio extends React.Component{
     }
 
     redirectHome(){
-        window.location.href = "../index.html"
+        window.location.href = "main.html"
     }
 
     render() {
@@ -271,4 +271,4 @@ var projects = {
     ]
 }
 
-ReactDOM.render(<Portfolio projects={projects.projects}/>, document.getElementById('portfolioMain'));
+ReactDOM.render(<PortfolioMain projects={projects.projects}/>, document.getElementById('portfolioMain'));

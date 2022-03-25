@@ -5,7 +5,7 @@ class Home extends React.Component{
     }
     
     redirect(){
-      window.location.href = "pages/portfolio.html"
+      window.location.href = "portfolio.html"
     }
 
     render() {
