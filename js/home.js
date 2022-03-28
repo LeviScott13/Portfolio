@@ -45,7 +45,7 @@ class Home extends React.Component{
                     <button onClick={this.redirect}>
                       <span>Portfolio</span>
                     </button>
-                    <a href="resume/LeviSuttonResume2022.docx" download="LeviSuttonResume2022">
+                    <a href="../resume/LeviSuttonResume2022.docx" download="LeviSuttonResume2022">
                       <i className="fas fa-download" style={{marginRight: "10px"}}></i>
                       <span>Download Resume</span>
                     </a>
