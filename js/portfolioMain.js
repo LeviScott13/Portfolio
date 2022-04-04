@@ -88,6 +88,32 @@ var projects = {
 projects: 
     [
         {
+            "title": "QuickTrack",
+            "project_description": "This is a redesign of our QuickTrack application. QuickTrack is an application that allows an individual from the production team to manage company devices in order to complete the tasks given to them on a daily basis. QuickTrask also allows an individual to quickly see how well they're performing by providing personalized stats to the specific individual using the application.",
+            "problem": "Initially, QuickTrack didn't provide a way for production employees to see how well they were performing their daily tasks, so we not only wanted to provide a fresh new User Interface, but also incorporate this feature and provide them with a better experience while they complete their tasks for the day.",
+            "features": [
+                "Sidenav",
+                "Personalized Stats/Message - (based on how well an individual is performing)",
+                "Search/Filter functionality"
+            ],
+            "titleImg": "../img/projectImgs/virtucom.png",
+            "github": false,
+            "github_link": "",
+            "website": false,
+            "website_link": "",
+            "tools": [
+                "HMTL",
+                "CSS",
+                "javaScript",
+                "React"
+            ],
+            "project_imgs": [
+                {
+                    "src": "../img/projectImgs/QuickTrack.png"
+                }
+            ]
+        },
+        {
             title: "Inventory Management System",
             project_description: "This is a redesign/rework of an exisisting inventory management system. This system allows the company to manage, maintain records and provide analytical data on our devices.",
             problem: "The way the current inventory system is setup isn't user friendly, due to parts of the process being a bit spaced out in different locations. Our users would like to be able to have everything related to inventory within a centralized location, providing a better user experience and making it easier to keep track of inventory in the future. Reworking this application would make it easier on the company, especially for those in production that are in charge of handling and maintaining inventory.",
